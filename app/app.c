@@ -24,7 +24,7 @@ app_init(void)
   audio_buffer_init();
   adc_read_init();
   dac_write_init();
-  // audio_init();
+  audio_init();
 
   __disable_irq();
   shell_init();
